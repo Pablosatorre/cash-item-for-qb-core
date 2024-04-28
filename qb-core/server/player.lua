@@ -6,6 +6,7 @@
 
 		if moneytype == 'cash' then
 			self.Functions.AddItem('cash', amount)
+            self.PlayerData.money[moneytype] = self.PlayerData.money[moneytype]+amount
 			self.Functions.UpdatePlayerData()
 		else
 			if self.PlayerData.money[moneytype] ~= nil then
