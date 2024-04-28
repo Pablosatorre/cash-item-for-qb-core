@@ -1,3 +1,7 @@
+# What is fixed?
+
+In the principal version the money never adds to the player it only was giving the cash item.
+
 # Cash item for qb-core ENG
 Replace the code that I provided with your own code and add the "cash" item in your shared.lua.
 
